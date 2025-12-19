@@ -1,7 +1,7 @@
 # 🚀 Engenharia de Software II – Análise Arquitetural do Projeto ChatTTS com LLMs
 ## 📋 Sumário
 
-1. [Sobre o Projeto](#1--sobre-o-projeto)
+1. [Sobre o Projeto](#1-sobre-o-projeto)
 2. [Projeto Selecionado – ChatTTS](#projeto-selecionado--chattts)
 3. [Objetivos da Análise](#objetivos-da-análise)
 4. [Metodologia Utilizada](#metodologia-utilizada)
