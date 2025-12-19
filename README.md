@@ -28,6 +28,12 @@ Colab**, utilizando diferentes modelos da Hugging Face aplicados nas issues, doc
 
 ------------------------------------------------------------------------
 
+## Projeto Escolhido - ChatTTS
+
+O ChatTTS é um projeto que converte texto em voz usando técnicas de síntese de fala (Text-to-Speech – TTS). O objetivo principal é permitir que usuários obtenham saída de áudio a partir de texto de forma rápida, natural e interativa — ideal para assistentes de voz, ferramentas acessíveis ou aplicações interativas.
+
+------------------------------------------------------------------------
+
 ## Estrutura do Repositório
 
     .
