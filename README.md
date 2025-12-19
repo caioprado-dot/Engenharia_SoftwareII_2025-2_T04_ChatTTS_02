@@ -16,19 +16,22 @@ Contribuição:
 Este repositório contém o código, artefatos e documentação utilizados
 para realizar a análise os **padrões de commits e releases** do projeto
 **ChatTTS** (modelo de text-to-speech open-source)(https://github.com/2noise/ChatTTS).\
-A análise foi implementada em **notebooks Python executados no Google
-Colab**, utilizando diferentes modelos da Hugging Face aplicados nas issues e pull-requests do repositório original.
+A análise foi implementada em um **notebook Python executados no Google
+Colab**, utilizando diferentes modelos da Hugging Face aplicados nas issues, documentação, releases e pull-requests do repositório original.
+
+**Modelos utilizados**:
+- https://huggingface.co/Qwen/Qwen2.5-72B-Instruct
+
+- https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+
+- https://huggingface.co/google/gemma-2-9b-it
 
 ------------------------------------------------------------------------
 
 ## Estrutura do Repositório
 
     .
-    ├── modelo1/
-    │   └── ChatTTSTestes.ipynb     → Pipeline 1
-    │
-    ├── modelo2/
-    │   └── script.ipynb            → Pipeline 2
+    ├── Chattts_Atv2.ipynb` -> arquivo contendo a análise com os 3 modelos
     │
     ├── [nome_dos_integrantes].pdf -> tutorial escrito
     └── README.md  ← este arquivo
@@ -41,12 +44,9 @@ O propósito deste estudo é:
 
 1.  **Extrair informações** sobre os **padrões de commits e releases** do repositório ChatTTS.\
 
-Três pipelines foram desenvolvidas:
-
-### **Pipeline 1:**
-
-Localizada em: `./nome_do_arquivo.ipynb`
-
+### Método
+- Foram utilizados 3 modelos(LLMs), tendo como contexto um prompt no qual eles assumem o papel de um engenheiro de software pleno,\
+para análisar o repositório(documentação, commits, pull-requests, releases) e classificar as estratégias utilizadas para o desenvolvimento e disponibilização do projeto.
 ------------------------------------------------------------------------
 
 ## Como Executar
@@ -57,7 +57,7 @@ Toda a execução é feita **no Google Colab** utilizando o plano Free(gratuito)
 
 Faça upload do notebook desejado:
 
--   `nome_do_arquivo.ipynb`
+-   `Chattts_Atv2.ipynb.ipynb`
 
 Ou abra diretamente pelo Google Drive.
 
@@ -71,8 +71,7 @@ passos a seguir sejam executadas:
 1.  Instalar dependências\
 2.  Baixar arquivos do ChatTTS pelo GitHub API.\
 3.  Processar os dados e gerar datasets intermediários.\
-4.  Rodar inferência nos modelos.\
-5.  Exportar outputs para `results/`.
+4.  Rodar inferência nos modelos.
 
 Os resultados são reproduzíveis desde que o ambiente Colab seja mantido
 com as versões indicadas.
