@@ -1,88 +1,172 @@
-# Análise Arquitetural do ChatTTS
-## Autores
-- Filippi Reis Menezes - 202300027230
-- Jackson Santana Carvalho Júnior - 202300027365
-- Gabriel Bastos Pimentel - 202300061590 
-- Marcos Vinícius Dantas Aguiar - 201800084345
-- Caio Victor Prado Cruz - 202100011234
-- Yan Victor Araujo do Nascimento - 202100046006
-- Leonardo de Souza Aragão - 202200117002
-- Vênisson Cardoso Dos Santos – 201700063182
+# 🚀 Engenharia de Software II – Análise Arquitetural do Projeto ChatTTS com LLMs
+📋 Sumário
 
-Contribuição:
+Sobre o Projeto
 
-## Introdução
+Projeto Selecionado – ChatTTS
 
-Este repositório contém o código, artefatos e documentação utilizados
-para realizar a análise os **padrões de commits e releases** do projeto
-**ChatTTS** (modelo de text-to-speech open-source)(https://github.com/2noise/ChatTTS).\
-A análise foi implementada em um **notebook Python executados no Google
-Colab**, utilizando diferentes modelos da Hugging Face aplicados nas issues, documentação, releases e pull-requests do repositório original.
+Objetivos da Análise
 
-**Modelos utilizados**:
-- https://huggingface.co/Qwen/Qwen2.5-72B-Instruct
+Metodologia Utilizada
 
-- https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+Modelos de Linguagem Utilizados
 
-- https://huggingface.co/google/gemma-2-9b-it
+Estrutura do Repositório
 
-------------------------------------------------------------------------
+Instalação e Execução
 
-## Projeto Escolhido - ChatTTS
+Reprodutibilidade do Experimento
 
-O ChatTTS é um projeto que converte texto em voz usando técnicas de síntese de fala (Text-to-Speech – TTS). O objetivo principal é permitir que usuários obtenham saída de áudio a partir de texto de forma rápida, natural e interativa — ideal para assistentes de voz, ferramentas acessíveis ou aplicações interativas.
+Autores e Contribuições
 
-------------------------------------------------------------------------
+📌 1. Sobre o Projeto
 
-## Estrutura do Repositório
+Este repositório contém os artefatos, código e documentação utilizados na análise dos padrões de commits, branching e releases do projeto ChatTTS, um modelo open-source de Text-to-Speech (TTS).
 
-    .
-    ├── Chattts_Atv2.ipynb -> arquivo contendo o código da análise com os 3 modelos
-    │
-    ├── relatorio_final_ia.txt -> arquivo contendo o resultado da análise com os 3 modelos
-    │
-    ├── [nome_dos_integrantes].pdf -> tutorial escrito
-    └── README.md  ← este arquivo
+A análise foi realizada como parte da disciplina de Evolução de Software, utilizando Large Language Models (LLMs) para avaliar estratégias de desenvolvimento e disponibilização do software, com base em dados extraídos de:
 
-------------------------------------------------------------------------
+Documentação oficial
 
-## Objetivo do Projeto
+Issues
 
-O propósito deste estudo é:
+Pull Requests
 
-1.  **Extrair informações** sobre os **padrões de commits e releases** do repositório ChatTTS.\
+Commits
 
-### Método
-- Foram utilizados 3 modelos(LLMs), tendo como contexto um prompt no qual eles assumem o papel de um engenheiro de software pleno,\
-para análisar o repositório(documentação, commits, pull-requests, releases) e classificar as estratégias utilizadas para o desenvolvimento e disponibilização do projeto.
-------------------------------------------------------------------------
+Releases
 
-## Como Executar
+Toda a análise foi implementada em um notebook Python, executado no Google Colab, utilizando modelos da plataforma Hugging Face.
 
-Toda a execução é feita **no Google Colab** utilizando o plano Free(gratuito).
+🔗 Repositório analisado:
+https://github.com/2noise/ChatTTS
 
-### **1. Abrir o Colab**
+🧩 2. Projeto Selecionado – ChatTTS
 
-Faça upload do notebook desejado:
+O ChatTTS é um projeto open-source voltado para conversão de texto em fala, utilizando técnicas modernas de síntese de voz baseadas em modelos de linguagem.
 
--   `Chattts_Atv2.ipynb.ipynb`
+Características principais:
 
-Ou abra diretamente pelo Google Drive.
-Então, procure a constante `HF_TOKEN` no arquivo e adicione o seu token do hugging face, atribuindo o valor da seguinte forma:
-- HF_TOKEN = "STRING_DO_TOKEN"
+Geração de áudio natural a partir de texto
 
-------------------------------------------------------------------------
+Aplicável em assistentes virtuais, acessibilidade e aplicações interativas
 
-### **2. Executar o notebook**
+Projeto ativo, com histórico relevante de commits e releases
 
-Basta clicar no botão "Run all" do colab para que as células que fazem os
-passos a seguir sejam executadas:
+Essas características tornam o ChatTTS um excelente candidato para análise de governança de software e práticas evolutivas.
 
-1.  Instalar dependências\
-2.  Baixar arquivos do ChatTTS pelo GitHub API.\
-3.  Processar os dados e gerar datasets intermediários.\
-4.  Rodar inferência nos modelos.
+🎯 3. Objetivos da Análise
 
-Os resultados são reproduzíveis desde que o ambiente Colab seja mantido
-com as versões indicadas.
-------------------------------------------------------------------------
+O objetivo principal deste estudo é:
+
+Identificar os padrões de commits utilizados no projeto
+
+Analisar a estratégia de releases adotada
+
+Avaliar se modelos de linguagem conseguem inferir corretamente práticas de engenharia de software
+
+Comparar as respostas entre diferentes LLMs, observando convergências e divergências
+
+🧪 4. Metodologia Utilizada
+
+A metodologia adotada consistiu nos seguintes passos:
+
+Coleta de dados do repositório ChatTTS via GitHub API
+
+Extração de:
+
+Commits
+
+Pull Requests
+
+Releases
+
+Documentação
+
+Construção de um prompt estruturado, onde os modelos assumem o papel de um engenheiro de software pleno
+
+Execução da inferência utilizando 3 modelos distintos
+
+Consolidação dos resultados em um relatório final
+
+Toda a execução ocorreu de forma automatizada dentro de um notebook Python no Google Colab.
+
+🤖 5. Modelos de Linguagem Utilizados
+
+Foram utilizados três Large Language Models (LLMs), escolhidos por sua capacidade de raciocínio e análise de texto técnico:
+
+Qwen/Qwen2.5-72B-Instruct
+https://huggingface.co/Qwen/Qwen2.5-72B-Instruct
+
+HuggingFaceH4/zephyr-7b-beta
+https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
+
+google/gemma-2-9b-it
+https://huggingface.co/google/gemma-2-9b-it
+
+Cada modelo foi submetido ao mesmo contexto e prompt, permitindo uma comparação direta entre os resultados.
+
+📁 6. Estrutura do Repositório
+.
+├── Chattts_Atv2.ipynb          # Notebook com toda a análise e inferência dos modelos
+├── relatorio_final_ia.txt      # Resultados consolidados das análises com os 3 LLMs
+├── [nome_dos_integrantes].pdf  # Tutorial / relatório escrito da atividade
+└── README.md                   # Este arquivo
+
+🛠️ 7. Instalação e Execução
+
+Toda a execução do projeto é feita no Google Colab (plano gratuito).
+
+Passo 1 – Abrir o Notebook
+
+Faça upload do arquivo Chattts_Atv2.ipynb no Google Colab
+
+Ou abra diretamente pelo Google Drive
+
+Passo 2 – Configurar Token da Hugging Face
+
+No notebook, localize a constante:
+
+HF_TOKEN = "STRING_DO_TOKEN"
+
+
+Substitua pelo seu token pessoal da Hugging Face.
+
+Passo 3 – Executar o Notebook
+
+Clique em “Run all” no Colab.
+
+As seguintes etapas serão executadas automaticamente:
+
+Instalação das dependências
+
+Download dos dados do ChatTTS via GitHub API
+
+Processamento e geração de datasets intermediários
+
+Execução da inferência nos três modelos
+
+Geração dos resultados finais
+
+♻️ 8. Reprodutibilidade do Experimento
+
+Os resultados obtidos são reprodutíveis, desde que:
+
+O ambiente do Google Colab seja mantido
+
+As versões das bibliotecas sejam preservadas
+
+O mesmo conjunto de prompts seja utilizado
+
+👥 9. Autores e Contribuições
+Nome Completo	Matrícula
+Filippi Reis Menezes	202300027230
+Jackson Santana Carvalho Júnior	202300027365
+Gabriel Bastos Pimentel	202300061590
+Marcos Vinícius Dantas Aguiar	201800084345
+Caio Victor Prado Cruz	202100011234
+Yan Victor Araujo do Nascimento	202100046006
+Leonardo de Souza Aragão	202200117002
+Vênisson Cardoso dos Santos	201700063182
+
+Estrutura de trabalho:
+O grupo atuou de forma colaborativa na coleta de dados, definição da metodologia, execução das análises e consolidação dos resultados.
