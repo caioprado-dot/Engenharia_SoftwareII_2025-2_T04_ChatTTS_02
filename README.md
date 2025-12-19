@@ -31,7 +31,7 @@ Colab**, utilizando diferentes modelos da Hugging Face aplicados nas issues, doc
 ## Estrutura do Repositório
 
     .
-    ├── Chattts_Atv2.ipynb` -> arquivo contendo a análise com os 3 modelos
+    ├── Chattts_Atv2.ipynb -> arquivo contendo a análise com os 3 modelos
     │
     ├── [nome_dos_integrantes].pdf -> tutorial escrito
     └── README.md  ← este arquivo
