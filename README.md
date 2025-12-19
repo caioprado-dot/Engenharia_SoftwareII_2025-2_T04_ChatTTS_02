@@ -60,6 +60,8 @@ Faça upload do notebook desejado:
 -   `Chattts_Atv2.ipynb.ipynb`
 
 Ou abra diretamente pelo Google Drive.
+Então, procure a constante `HF_TOKEN` no arquivo e adicione o seu token do hugging face, atribuindo o valor da seguinte forma:
+- HF_TOKEN = "STRING_DO_TOKEN"
 
 ------------------------------------------------------------------------
 
