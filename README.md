@@ -11,7 +11,7 @@
 8. [Reprodutibilidade do Experimento](#reprodutibilidade-do-experimento)
 9. [Autores e Contribuições](#autores-e-contribuições)
     
-## 📌 1. Sobre o Projeto
+📌 ## 1. Sobre o Projeto
 
 Este repositório contém os artefatos, código e documentação utilizados na análise dos padrões de commits, branching e releases do projeto ChatTTS, um modelo open-source de Text-to-Speech (TTS).
 
