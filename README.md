@@ -2,7 +2,7 @@
 ## 📋 Sumário
 
 1. [Sobre o Projeto](#📌-1-sobre-o-projeto)
-2. [Projeto Selecionado – ChatTTS](#projeto-selecionado--chattts)
+2. [Projeto Selecionado – ChatTTS](#2-projeto-selecionado--chattts)
 3. [Objetivos da Análise](#objetivos-da-análise)
 4. [Metodologia Utilizada](#metodologia-utilizada)
 5. [Modelos de Linguagem Utilizados](#modelos-de-linguagem-utilizados)
