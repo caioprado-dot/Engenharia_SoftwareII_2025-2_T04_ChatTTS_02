@@ -1,0 +1,78 @@
+📥 Baixando dados reais de 2noise/ChatTTS...
+
+📊 DADOS COLETADOS:
+- Total Commits analisados: 100
+- Merges de PR explícitos: 0 (0.0%)
+- Últimas 5 Versões: ['v0.2.4', 'v0.2.3', 'v0.2.2', 'v0.2.1', 'v0.2.0']
+✅ Gráfico 'grafico_commits.png' salvo.
+
+--- INICIANDO ANÁLISE DOS MODELOS ---
+
+🤖 Consultando IA: Qwen/Qwen2.5-72B-Instruct...
+/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_auth.py:94: UserWarning: 
+The secret `HF_TOKEN` does not exist in your Colab secrets.
+To authenticate with the Hugging Face Hub, create a token in your settings tab (https://huggingface.co/settings/tokens), set it as secret in your Google Colab and restart your session.
+You will be able to reuse this secret in all of your notebooks.
+Please note that authentication is recommended but still optional to access public models or datasets.
+  warnings.warn(
+
+📝 Análise do Qwen/Qwen2.5-72B-Instruct:
+------------------------------------------------------------
+A) **Branching Model: Trunk-Based Development**  **Justificativa:** -
+**Linearidade dos Commits:** A ausência de merges de Pull Request explícitos e a
+presença de commits diretos ou "squashed" indicam que os desenvolvedores estão
+fazendo commits diretamente no branch principal (trunk) ou que os merges estão
+sendo realizados de forma squashed, o que é uma prática comum no Trunk-Based
+Development. Este modelo incentiva a integração frequente e evita branches de
+longa duração, mantendo um histórico linear e limpo.  B) **Estratégia de
+Releases: Rapid Release**  **Justificativa:** - **Periodicidade das Tags:** As
+tags lançadas recentemente (v0.2.4, v0.2.3, v0.2.2, v0.2.1, v0.2.0) sugerem uma
+frequência de releases relativamente alta, com pequenos incrementos de versão.
+Isso é característico de uma estratégia de Rapid Release, onde as releases são
+feitas frequentemente, permitindo que novas funcionalidades e correções sejam
+liberadas para os usuários de forma contínua. A sequência de versões menores
+(0.2.x) indica que as mudanças são incrementais e provavelmente menores, o que é
+típico em projetos que adotam uma abordagem de desenvolvimento ágil e contínuo.
+------------------------------------------------------------
+🤖 Consultando IA: HuggingFaceH4/zephyr-7b-beta...
+
+📝 Análise do HuggingFaceH4/zephyr-7b-beta:
+------------------------------------------------------------
+      [ASS]     A) Gitflow. A estratégia de branching é Gitflow, pois a maioria
+dos commits são diretos ou "squashed", indicando que os desenvolvimentos são
+feitos em branches separados para cada feature ou bugfix, depois mergeados para
+a branch develop e depois para a main.     B) Ad-hoc, pois as tags são lançadas
+com periodicidade, indicando que são lançamentos acontecendo quando estiver
+pronto, sem uma estratégia pré-definida de releases.      Justificativa:     -
+Gitflow: O Gitflow é um modelo de branching que envolve a criação de branches
+para desenvolvimento de features (feature branches), desenvolvimento, teste e
+integração (release branches) e aplicação de releases (release branches), com
+merge para a main. Nesse caso, a maioria dos commits são diretos ou "squashed"
+indica que os desenvolvimentos são feitos em branches separadas para cada
+feature ou bugfix, depois mergeados para a branch develop e depois para a main,
+seguindo o fluxo do Gitflow.     - Release Train: É um modelo de branching que
+envolve a criação de branches para desenvolvimento de releases, com merge para a
+main a cada ciclo pré-definido de tempo. Nesse caso, as tags seriam lançadas a
+cada ciclo pré-definido de tempo, o que não ocorre aqui.     - Trunk-Based: É um
+modelo de branching que envolve desenvolvimento direto na main, sem a criação de
+branches para desenvolvimento ou releases. Nesse caso, as tags seriam lançadas a
+cada commit na main, o que não ocorre aqui.      A análise das tags também
+confirma a estratégia Ad-hoc, pois as tags são lançadas com periodicidade,
+indicando que são lançamentos acontecendo quando estiverem prontos, sem uma
+estratégia pré-definida de releases.
+------------------------------------------------------------
+🤖 Consultando IA: google/gemma-2-9b-it...
+
+📝 Análise do google/gemma-2-9b-it:
+------------------------------------------------------------
+## Análise do Repositório ChatTTS:  **A) Branching Model:**  O padrão de commit
+indica um **Trunk-Based Development**. A ausência de Merges de Pull Request
+explícitos sugere que as alterações são diretamente integradas ao ramo principal
+(trunk).   **B) Estratégia de Releases:**  A sequência de tags (v0.2.4, v0.2.3,
+etc.) sugere uma **estratégia de Rapid Release**. As tags são lançadas com
+frequência, indicando um ciclo de desenvolvimento rápido e entregas constantes.
+------------------------------------------------------------
+
+✅ Processo concluído! Arquivos gerados:
+1. grafico_commits.png (Visualização dos dados)
+2. relatorio_final_ia.txt (Argumentação técnica dos modelos)
