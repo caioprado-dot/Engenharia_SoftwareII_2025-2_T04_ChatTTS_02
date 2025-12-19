@@ -1,15 +1,15 @@
 # 🚀 Engenharia de Software II – Análise Arquitetural do Projeto ChatTTS com LLMs
 ## 📋 Sumário
 
-1. [Sobre o Projeto](#sobre-o-projeto)
-2. [Projeto Selecionado – ChatTTS](#projeto-selecionado--chattts)
-3. [Objetivos da Análise](#objetivos-da-análise)
-4. [Metodologia Utilizada](#metodologia-utilizada)
-5. [Modelos de Linguagem Utilizados](#modelos-de-linguagem-utilizados)
-6. [Estrutura do Repositório](#estrutura-do-repositório)
-7. [Instalação e Execução](#instalação-e-execução)
-8. [Reprodutibilidade do Experimento](#reprodutibilidade-do-experimento)
-9. [Autores e Contribuições](#autores-e-contribuições)
+1. [Sobre o Projeto](#1-sobre-o-projeto)
+2. [Projeto Selecionado – ChatTTS](#2-projeto-selecionado--chattts)
+3. [Objetivos da Análise](#3-objetivos-da-análise)
+4. [Metodologia Utilizada](#4-metodologia-utilizada)
+5. [Modelos de Linguagem Utilizados](#5-modelos-de-linguagem-utilizados)
+6. [Estrutura do Repositório](#6-estrutura-do-repositório)
+7. [Instalação e Execução](#7-instalação-e-execução)
+8. [Reprodutibilidade do Experimento](#8-reprodutibilidade-do-experimento)
+9. [Autores e Contribuições](#9-autores-e-contribuições)
 
 ## 📌 1. Sobre o Projeto
 
