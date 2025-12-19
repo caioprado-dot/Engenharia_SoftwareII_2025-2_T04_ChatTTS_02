@@ -1,23 +1,15 @@
 # 🚀 Engenharia de Software II – Análise Arquitetural do Projeto ChatTTS com LLMs
 ## 📋 Sumário
 
-Sobre o Projeto
-
-Projeto Selecionado – ChatTTS
-
-Objetivos da Análise
-
-Metodologia Utilizada
-
-Modelos de Linguagem Utilizados
-
-Estrutura do Repositório
-
-Instalação e Execução
-
-Reprodutibilidade do Experimento
-
-Autores e Contribuições
+1. [Sobre o Projeto](#sobre-o-projeto)
+2. [Projeto Selecionado – ChatTTS](#projeto-selecionado--chattts)
+3. [Objetivos da Análise](#objetivos-da-análise)
+4. [Metodologia Utilizada](#metodologia-utilizada)
+5. [Modelos de Linguagem Utilizados](#modelos-de-linguagem-utilizados)
+6. [Estrutura do Repositório](#estrutura-do-repositório)
+7. [Instalação e Execução](#instalação-e-execução)
+8. [Reprodutibilidade do Experimento](#reprodutibilidade-do-experimento)
+9. [Autores e Contribuições](#autores-e-contribuições)
 
 ## 📌 1. Sobre o Projeto
 
@@ -25,15 +17,15 @@ Este repositório contém os artefatos, código e documentação utilizados na a
 
 A análise foi realizada como parte da disciplina de Evolução de Software, utilizando Large Language Models (LLMs) para avaliar estratégias de desenvolvimento e disponibilização do software, com base em dados extraídos de:
 
-Documentação oficial
+- Documentação oficial
 
-Issues
+- Issues
 
-Pull Requests
+- Pull Requests
 
-Commits
+- Commits
 
-Releases
+- Releases
 
 Toda a análise foi implementada em um notebook Python, executado no Google Colab, utilizando modelos da plataforma Hugging Face.
 
@@ -46,11 +38,11 @@ O ChatTTS é um projeto open-source voltado para conversão de texto em fala, ut
 
 Características principais:
 
-Geração de áudio natural a partir de texto
+- Geração de áudio natural a partir de texto
 
-Aplicável em assistentes virtuais, acessibilidade e aplicações interativas
+- Aplicável em assistentes virtuais, acessibilidade e aplicações interativas
 
-Projeto ativo, com histórico relevante de commits e releases
+- Projeto ativo, com histórico relevante de commits e releases
 
 Essas características tornam o ChatTTS um excelente candidato para análise de governança de software e práticas evolutivas.
 
@@ -58,35 +50,34 @@ Essas características tornam o ChatTTS um excelente candidato para análise de 
 
 O objetivo principal deste estudo é:
 
-Identificar os padrões de commits utilizados no projeto
+- Identificar os padrões de commits utilizados no projeto
 
-Analisar a estratégia de releases adotada
+- Analisar a estratégia de releases adotada
 
-Avaliar se modelos de linguagem conseguem inferir corretamente práticas de engenharia de software
+- Avaliar se modelos de linguagem conseguem inferir corretamente práticas de engenharia de software
 
-Comparar as respostas entre diferentes LLMs, observando convergências e divergências
+- Comparar as respostas entre diferentes LLMs, observando convergências e divergências
 
 ## 🧪 4. Metodologia Utilizada
 
 A metodologia adotada consistiu nos seguintes passos:
 
-Coleta de dados do repositório ChatTTS via GitHub API
+- Coleta de dados do repositório ChatTTS via GitHub API
 
-Extração de:
+- Extração de:
+  - Commits
 
-Commits
+  - Pull Requests
 
-Pull Requests
+  - Releases
 
-Releases
+  - Documentação
 
-Documentação
+- Construção de um prompt estruturado, onde os modelos assumem o papel de um engenheiro de software pleno
 
-Construção de um prompt estruturado, onde os modelos assumem o papel de um engenheiro de software pleno
+- Execução da inferência utilizando 3 modelos distintos
 
-Execução da inferência utilizando 3 modelos distintos
-
-Consolidação dos resultados em um relatório final
+- Consolidação dos resultados em um relatório final
 
 Toda a execução ocorreu de forma automatizada dentro de um notebook Python no Google Colab.
 
@@ -94,13 +85,13 @@ Toda a execução ocorreu de forma automatizada dentro de um notebook Python no 
 
 Foram utilizados três Large Language Models (LLMs), escolhidos por sua capacidade de raciocínio e análise de texto técnico:
 
-Qwen/Qwen2.5-72B-Instruct
+- Qwen/Qwen2.5-72B-Instruct
 https://huggingface.co/Qwen/Qwen2.5-72B-Instruct
 
-HuggingFaceH4/zephyr-7b-beta
+- HuggingFaceH4/zephyr-7b-beta
 https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
 
-google/gemma-2-9b-it
+- google/gemma-2-9b-it
 https://huggingface.co/google/gemma-2-9b-it
 
 Cada modelo foi submetido ao mesmo contexto e prompt, permitindo uma comparação direta entre os resultados.
