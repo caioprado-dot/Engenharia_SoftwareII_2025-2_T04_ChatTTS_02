@@ -1,7 +1,7 @@
 # 🚀 Engenharia de Software II – Análise Arquitetural do Projeto ChatTTS com LLMs
 ## 📋 Sumário
 
-1. [Sobre o Projeto](#1-sobre-o-projeto)
+1. [Sobre o Projeto](#📌-1-sobre-o-projeto)
 2. [Projeto Selecionado – ChatTTS](#projeto-selecionado--chattts)
 3. [Objetivos da Análise](#objetivos-da-análise)
 4. [Metodologia Utilizada](#metodologia-utilizada)
@@ -11,7 +11,7 @@
 8. [Reprodutibilidade do Experimento](#reprodutibilidade-do-experimento)
 9. [Autores e Contribuições](#autores-e-contribuições)
     
-📌 ## 1. Sobre o Projeto
+## 📌 1. Sobre o Projeto
 
 Este repositório contém os artefatos, código e documentação utilizados na análise dos padrões de commits, branching e releases do projeto ChatTTS, um modelo open-source de Text-to-Speech (TTS).
 
