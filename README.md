@@ -154,15 +154,16 @@ Os resultados obtidos são reprodutíveis, desde que:
 - O mesmo conjunto de prompts seja utilizado
 
 ## 👥 9. Autores e Contribuições
-Nome Completo	Matrícula
-Filippi Reis Menezes	202300027230
-Jackson Santana Carvalho Júnior	202300027365
-Gabriel Bastos Pimentel	202300061590
-Marcos Vinícius Dantas Aguiar	201800084345
-Caio Victor Prado Cruz	202100011234
-Yan Victor Araujo do Nascimento	202100046006
-Leonardo de Souza Aragão	202200117002
-Vênisson Cardoso dos Santos	201700063182
+| Nome Completo | Matrícula | Contribuição na Atividade |
+|--------------|-----------|----------------------------|
+| Filippi Reis Menezes | 202300027230 |-----------------|
+| Jackson Santana Carvalho Júnior | 202300027365 |------|
+| Gabriel Bastos Pimentel | 202300061590 |--------------|
+| Marcos Vinícius Dantas Aguiar | 201800084345 |--------|
+| Caio Victor Prado Cruz | 202100011234 |---------------|
+| **Yan Victor Araujo do Nascimento** | 202100046006 |--|
+| Leonardo de Souza Aragão | 202200117002 |-------------|
+| Vênisson Cardoso dos Santos | 201700063182 |----------|
 
 Estrutura de trabalho:
 O grupo atuou de forma colaborativa na:
