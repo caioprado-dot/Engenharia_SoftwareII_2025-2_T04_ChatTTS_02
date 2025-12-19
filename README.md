@@ -94,6 +94,15 @@ https://huggingface.co/HuggingFaceH4/zephyr-7b-beta
 - google/gemma-2-9b-it
 https://huggingface.co/google/gemma-2-9b-it
 
+- distilbert/distilgpt2
+https://huggingface.co/distilbert/distilgpt2  
+
+- google/flan-t5-base
+https://huggingface.co/google/flan-t5-base 
+
+- bart-large-mnli
+https://huggingface.co/facebook/bart-large-mnli
+
 Cada modelo foi submetido ao mesmo contexto e prompt, permitindo uma comparação direta entre os resultados.
 
 
