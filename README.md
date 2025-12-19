@@ -1,5 +1,5 @@
 # 🚀 Engenharia de Software II – Análise Arquitetural do Projeto ChatTTS com LLMs
-📋 Sumário
+## 📋 Sumário
 
 Sobre o Projeto
 
