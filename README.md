@@ -96,57 +96,62 @@ https://huggingface.co/google/gemma-2-9b-it
 
 Cada modelo foi submetido ao mesmo contexto e prompt, permitindo uma comparação direta entre os resultados.
 
+
 ## 📁 6. Estrutura do Repositório
+
+```text
 .
 ├── Chattts_Atv2.ipynb          # Notebook com toda a análise e inferência dos modelos
 ├── relatorio_final_ia.txt      # Resultados consolidados das análises com os 3 LLMs
 ├── [nome_dos_integrantes].pdf  # Tutorial / relatório escrito da atividade
 └── README.md                   # Este arquivo
+```
 
 ## 🛠️ 7. Instalação e Execução
 
 Toda a execução do projeto é feita no Google Colab (plano gratuito).
 
-Passo 1 – Abrir o Notebook
+### Passo 1 – Abrir o Notebook
 
-Faça upload do arquivo Chattts_Atv2.ipynb no Google Colab
+- Faça upload do arquivo Chattts_Atv2.ipynb no Google Colab
 
-Ou abra diretamente pelo Google Drive
+- Ou abra diretamente pelo Google Drive
 
-Passo 2 – Configurar Token da Hugging Face
+### Passo 2 – Configurar Token da Hugging Face
 
 No notebook, localize a constante:
 
+```text
 HF_TOKEN = "STRING_DO_TOKEN"
-
+```
 
 Substitua pelo seu token pessoal da Hugging Face.
 
-Passo 3 – Executar o Notebook
+### Passo 3 – Executar o Notebook
 
 Clique em “Run all” no Colab.
 
 As seguintes etapas serão executadas automaticamente:
 
-Instalação das dependências
+- Instalação das dependências
 
-Download dos dados do ChatTTS via GitHub API
+- Download dos dados do ChatTTS via GitHub API
 
-Processamento e geração de datasets intermediários
+- Processamento e geração de datasets intermediários
 
-Execução da inferência nos três modelos
+- Execução da inferência nos três modelos
 
-Geração dos resultados finais
+- Geração dos resultados finais
 
 ## ♻️ 8. Reprodutibilidade do Experimento
 
 Os resultados obtidos são reprodutíveis, desde que:
 
-O ambiente do Google Colab seja mantido
+- O ambiente do Google Colab seja mantido
 
-As versões das bibliotecas sejam preservadas
+- As versões das bibliotecas sejam preservadas
 
-O mesmo conjunto de prompts seja utilizado
+- O mesmo conjunto de prompts seja utilizado
 
 ## 👥 9. Autores e Contribuições
 Nome Completo	Matrícula
@@ -160,4 +165,8 @@ Leonardo de Souza Aragão	202200117002
 Vênisson Cardoso dos Santos	201700063182
 
 Estrutura de trabalho:
-O grupo atuou de forma colaborativa na coleta de dados, definição da metodologia, execução das análises e consolidação dos resultados.
+O grupo atuou de forma colaborativa na:
+- Coleta de dados
+- Definição da metodologia
+- Execução das análises
+- Consolidação dos resultados
