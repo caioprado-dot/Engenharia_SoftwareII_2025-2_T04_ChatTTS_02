@@ -19,7 +19,7 @@ Reprodutibilidade do Experimento
 
 Autores e Contribuições
 
-📌 1. Sobre o Projeto
+## 📌 1. Sobre o Projeto
 
 Este repositório contém os artefatos, código e documentação utilizados na análise dos padrões de commits, branching e releases do projeto ChatTTS, um modelo open-source de Text-to-Speech (TTS).
 
@@ -40,7 +40,7 @@ Toda a análise foi implementada em um notebook Python, executado no Google Cola
 🔗 Repositório analisado:
 https://github.com/2noise/ChatTTS
 
-🧩 2. Projeto Selecionado – ChatTTS
+## 🧩 2. Projeto Selecionado – ChatTTS
 
 O ChatTTS é um projeto open-source voltado para conversão de texto em fala, utilizando técnicas modernas de síntese de voz baseadas em modelos de linguagem.
 
@@ -54,7 +54,7 @@ Projeto ativo, com histórico relevante de commits e releases
 
 Essas características tornam o ChatTTS um excelente candidato para análise de governança de software e práticas evolutivas.
 
-🎯 3. Objetivos da Análise
+## 🎯 3. Objetivos da Análise
 
 O objetivo principal deste estudo é:
 
@@ -66,7 +66,7 @@ Avaliar se modelos de linguagem conseguem inferir corretamente práticas de enge
 
 Comparar as respostas entre diferentes LLMs, observando convergências e divergências
 
-🧪 4. Metodologia Utilizada
+## 🧪 4. Metodologia Utilizada
 
 A metodologia adotada consistiu nos seguintes passos:
 
@@ -90,7 +90,7 @@ Consolidação dos resultados em um relatório final
 
 Toda a execução ocorreu de forma automatizada dentro de um notebook Python no Google Colab.
 
-🤖 5. Modelos de Linguagem Utilizados
+## 🤖 5. Modelos de Linguagem Utilizados
 
 Foram utilizados três Large Language Models (LLMs), escolhidos por sua capacidade de raciocínio e análise de texto técnico:
 
@@ -105,14 +105,14 @@ https://huggingface.co/google/gemma-2-9b-it
 
 Cada modelo foi submetido ao mesmo contexto e prompt, permitindo uma comparação direta entre os resultados.
 
-📁 6. Estrutura do Repositório
+## 📁 6. Estrutura do Repositório
 .
 ├── Chattts_Atv2.ipynb          # Notebook com toda a análise e inferência dos modelos
 ├── relatorio_final_ia.txt      # Resultados consolidados das análises com os 3 LLMs
 ├── [nome_dos_integrantes].pdf  # Tutorial / relatório escrito da atividade
 └── README.md                   # Este arquivo
 
-🛠️ 7. Instalação e Execução
+## 🛠️ 7. Instalação e Execução
 
 Toda a execução do projeto é feita no Google Colab (plano gratuito).
 
@@ -147,7 +147,7 @@ Execução da inferência nos três modelos
 
 Geração dos resultados finais
 
-♻️ 8. Reprodutibilidade do Experimento
+## ♻️ 8. Reprodutibilidade do Experimento
 
 Os resultados obtidos são reprodutíveis, desde que:
 
@@ -157,7 +157,7 @@ As versões das bibliotecas sejam preservadas
 
 O mesmo conjunto de prompts seja utilizado
 
-👥 9. Autores e Contribuições
+## 👥 9. Autores e Contribuições
 Nome Completo	Matrícula
 Filippi Reis Menezes	202300027230
 Jackson Santana Carvalho Júnior	202300027365
